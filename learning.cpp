@@ -6,7 +6,7 @@ int main()
 {
    
 int n;
-cout<<"array size : ";
+cout<<"array size: ";
 cin>>n;
 int arr[n];
 for(int i=0;i<=n;i++){
@@ -24,7 +24,7 @@ int main()
 {
 
 	int n;
-	cout<<"array size : ";
+	cout<<"array size: ";
 	cin>>n;
 	int arr[n];
 	for(int i=0; i<=n; i++) {
@@ -35,7 +35,6 @@ int main()
 	for(int j=0; j<=n; j++) {
 		if(arr[j]<smallest) {
 			smallest =arr[j];
-			//cout<<"smallest array element :"<<smallest;
 		}
 	}
 	cout<<"smallest array element :"<<smallest;
@@ -52,7 +51,7 @@ int main()
 {
 
 	int n;
-	cout<<"array size : ";
+	cout<<"array size: ";
 	cin>>n;
 	int arr[n];
 	for(int i=0; i<=n; i++) {

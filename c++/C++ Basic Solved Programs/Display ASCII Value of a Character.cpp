@@ -3,12 +3,12 @@ using namespace std;
 
 int main()
 {
-     char c;
+     char ch;
 
      cout << "Enter any Character :: ";
-     cin >> c;
+     cin >> ch;
 
-     cout << "\nThe ASCII Value of Character [ "<< c << " ] is :: " << int(c)<<"\n";
+     cout << "\n The ASCII Value of Character [ "<< ch << " ] is :: " << int(ch)<<"\n";
 
      return 0;
 }
